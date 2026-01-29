@@ -29,3 +29,12 @@ Retention strategies should focus on:
 - Incentivizing longer contracts
 - Proactively engaging new customers
 - Monitoring high-charge, short-tenure customers
+
+## Model Comparison
+A Random Forest model was trained to capture non-linear effects.
+
+While it achieved a higher ROC-AUC than the logistic regression baseline,
+the performance gain was moderate.
+
+Given the increased complexity, the logistic regression model remains
+a strong candidate for deployment when interpretability is prioritized.
